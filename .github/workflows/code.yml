@@ -10,7 +10,7 @@ jobs:
        # steps of the workflow
        steps:
           - name: Clone the code
-            uses: action/checkout@v7
+            uses: actions/checkout@v7
 
           - name: Print the message
             run: echo "Code Cloned"
