@@ -1,6 +1,6 @@
-name: Buils
+name: Builds
 
-on: # triger
+on: # trigger
    workflow_call: 
 
 jobs:
