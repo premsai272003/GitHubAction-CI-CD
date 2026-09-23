@@ -11,6 +11,6 @@ jobs:
               uses: actions/checkout@v7
 
             - name: Deploy via ngnix
-              run: sudo cp Index.html /var/www/html/index.html
+              run: sudo cp Index.html /var/www/html/Index.html
             - name: Deploy the code
               run: echo "Deploy the code to AWS EC2 instance"
