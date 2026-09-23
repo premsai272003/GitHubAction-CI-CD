@@ -5,7 +5,12 @@ on:
 
 jobs:
    build:
-         runs-on: ubuntu-latest
+         runs-on: self-hosted
          steps:
+            - name: clone the code
+              uses: actions/checkout@v7
+
+            - name: Deploy via ngnix
+              
             - name: Deploy the code
               run: echo "Deploy the code to AWS EC2 instance"
