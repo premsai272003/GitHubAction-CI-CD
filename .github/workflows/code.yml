@@ -2,7 +2,7 @@
 name: code
 # When th workflow should run
 on:
-   push: 
+   workflow_call: 
 # Jobs of the workflow
 jobs:
    code-checkout:
