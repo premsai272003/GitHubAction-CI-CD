@@ -8,10 +8,10 @@ jobs:
       uses: ./.github/workflows/code.yml  # workflow_call
    build:
       needs: code
-      uses: ./.github/wprkflows/build.yml
+      uses: ./.github/wprkflows/Build.yml
    test:
       needs: build
       uses: ./.github/workflows/test.yml
    deploy: 
       needs: test
-      uses: ./.github/workflow/deploy.yml
+      uses: ./.github/workflow/Deploy.yml
